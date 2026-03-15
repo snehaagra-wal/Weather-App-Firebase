@@ -1,0 +1,94 @@
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Premium dark gradient background */
+    background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(15px);
+    padding: 50px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 450px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.2);
+}
+
+.main-heading {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column; /* Stacked layout */
+    align-items: center;
+    gap: 20px;
+}
+
+#cityInput {
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#searchBtn {
+    width: 150px;
+    height: 150px; /* Bda aur Gol button */
+    border-radius: 50%;
+    border: none;
+    background: #00d2ff;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 210, 255, 0.3);
+}
+
+#searchBtn:hover {
+    transform: scale(1.1);
+    background: #3a7bd5;
+}
+
+.weather-info {
+    margin-top: 40px;
+    color: #fff;
+}
+
+#cityName {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#temp {
+    font-size: 5rem;
+    margin: 10px 0;
+    color: #00d2ff;
+}
+
+#desc {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-style: italic;
+    opacity: 0.8;
+}
