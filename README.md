@@ -19,7 +19,7 @@ I was really excited to try out *Firebase* and see how it works in a real projec
 
 ## 📸 Preview
 The app features a central glass-styled card, a large circular interactive search button, and dynamic weather updates that reflect the searched city's data instantly.
-
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/fea8e827-6004-4a15-b59d-14bb75a43c06" />
 ## ⚙️ How to Use
 1.⁠ ⁠Clone this repository to your local machine.
 2.⁠ ⁠Open ⁠ index.html ⁠ in your browser (using VS Code Live Server is recommended).
